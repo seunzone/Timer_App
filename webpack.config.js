@@ -4,14 +4,14 @@ module.exports = {
   entry: [
     'script!jquery/dist/jquery.min.js',
     'script!foundation-sites/dist/foundation.min.js',
-    './app/app.jsx'
+    './app/app.jsx',
   ],
   externals: {
     jquery: 'jQuery'
   },
   plugins: [
     new webpack.ProvidePlugin({
-      '$': 'jquery',
+      '$': 'jquery', 
       'jQuery': 'jquery'
     })
   ],
@@ -23,6 +23,14 @@ module.exports = {
     root: __dirname,
     alias: {
       Main: 'app/components/Main.jsx',
+      Navigation: 'app/components/Navigation.jsx',
+      Weather: 'app/components/Weather.jsx',
+      WeatherForm: 'app/components/WeatherForm.jsx',
+      WeatherMessage: 'app/components/WeatherMessage.jsx',
+      About: 'app/components/About.jsx',
+      Examples: 'app/components/Examples.jsx',
+      openWeatherMap: 'app/api/openWeatherMap.jsx',
+      ErrorModal: 'app/components/ErrorModal.jsx',
       applicationStyles: 'app/styles/app.scss'
     },
     extensions: ['', '.js', '.jsx']
@@ -38,6 +46,5 @@ module.exports = {
         exclude: /(node_modules|bower_components)/
       }
     ]
-  },
-  devtool: 'cheap-module-eval-source-map'
+  }
 };
