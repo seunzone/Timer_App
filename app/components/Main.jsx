@@ -1,5 +1,5 @@
-var React = require('react');
-var Navigation = require('Navigation');
+const React = require('react');
+const Navigation = require('Navigation');
 
 var Main = (props) => {
   return (

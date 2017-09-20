@@ -25567,8 +25567,8 @@
 	          'Created by ',
 	          React.createElement(
 	            'a',
-	            { href: 'http://www.mead.io', target: '_blank' },
-	            'Andrew Mead'
+	            { href: 'http://seunzone.com/about', target: '_blank' },
+	            'Seun Daramola'
 	          )
 	        )
 	      )
@@ -25963,7 +25963,7 @@
 
 
 	// module
-	exports.push([module.id, "p {\n  color: #777; }\n", ""]);
+	exports.push([module.id, ".top-bar, .top-bar ul {\n  background-color: #333333; }\n\n.top-bar .menu-text {\n  color: white; }\n\n.top-bar .menu > .menu-text > a {\n  display: inline;\n  padding: 0; }\n", ""]);
 
 	// exports
 

@@ -1,7 +1,7 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
-var {Route, Router, IndexRoute, hashHistory} = require('react-router');
-var Main = require('Main');
+const React = require('react');
+const ReactDOM = require('react-dom');
+const {Route, Router, IndexRoute, hashHistory} = require('react-router');
+const Main = require('Main');
 
 // Load foundation
 require('style!css!foundation-sites/dist/foundation.min.css')
